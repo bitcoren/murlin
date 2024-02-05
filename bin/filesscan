@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+PATH=$PATH:/opt/murzilla/bin
+cd /var/www/nextcloud/data/murzilla/files/magnetin
+for file in ./*.md; do
+    echo $file
+    magnet=$(cat "$file")
+    magnet-metainfo $magnet
+    rm "$file"
+done
+mv * /var/www/nextcloud/data/murzilla/files/torrentin
+sleep 9
+php /var/www/nextcloud/occ files:scan --all
