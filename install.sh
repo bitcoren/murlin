@@ -252,14 +252,6 @@ sudo -u www-data php occ background:cron
 sudo -u www-data php occ db:add-missing-indices
 sudo -u www-data php occ news:feed:add murzilla https://habr.com/ru/rss/all/all/
 
-sudo mkdir /opt/torrentin
-sudo mkdir /opt/torrentout
-sudo mkdir /opt/torrentdown
-sudo chmod 777 /opt/torrentin
-sudo chmod 777 /opt/torrentout
-sudo chmod 777 /opt/torrentdown
-
-
 sudo -u www-data mkdir /var/www/nextcloud/data/murzilla/files/torrentin
 sudo -u www-data mkdir /var/www/nextcloud/data/murzilla/files/torrentout
 sudo -u www-data mkdir /var/www/nextcloud/data/murzilla/files/magnetin
