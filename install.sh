@@ -44,7 +44,7 @@ wget -O temp/go.tar.gz https://go.dev/dl/go1.21.5.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf temp/go.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 go version
-git clone -b v1.53.2 --recurse-submodules https://github.com/anacrolix/torrent temp/torrent
+git clone -b v1.54.0 --recurse-submodules https://github.com/anacrolix/torrent temp/torrent
 go install github.com/anacrolix/torrent/cmd/...@latest
 cd /opt/murzilla/temp/torrent/fs/cmd/torrentfs
 go install
