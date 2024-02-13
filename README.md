@@ -13,5 +13,7 @@ x86-64; Ubuntu Sever 22.04+; 2 Core; 4 GB RAM; 40 GB SSD; 10 Mbit/s WAN; Open po
 3. Type sudo password
 4. Mininmal installation time - 5min(SSD)
 5. The system will reboot
+6. Access NextCloud web page to node address (user: murzilla, password: murzilla)
+7. Change password
 
 © 2024 Murzilla team
