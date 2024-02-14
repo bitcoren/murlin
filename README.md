@@ -4,7 +4,7 @@ Murzilla - journal of titles / Мурзилла - журнал заголовк�
 
 ## Requirements
 
-x86-64; Ubuntu Sever 22.04+; 2 Core; 4 GB RAM; 40 GB SSD; 10 Mbit/s WAN; Open ports TCP+UDP: 4001
+x86-64; Ubuntu Sever 22.04+; 1 Core; 2 GB RAM; 20 GB SSD; 20 Mbit/s WAN; Open ports TCP+UDP: 4001
 
 ## Installation
 
