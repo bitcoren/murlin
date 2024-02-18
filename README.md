@@ -1,6 +1,6 @@
 # Murzilla
 
-Murzilla - journal of titles / Мурзилла - журнал заголовков
+Murzilla - journal of titles for Linux / Мурзилла - журнал заголовков для Linux
 
 ## Requirements
 
@@ -8,7 +8,7 @@ x86-64; Ubuntu Sever 22.04+; 1 Core; 2 GB RAM; 20 GB SSD; 20 Mbit/s WAN; Open po
 
 ## Installation
 
-1. `git clone https://github.com/bitcoren/murzilla.git && cd murzilla && bash install.sh`
+1. `git clone https://github.com/bitcoren/murlin.git murzilla && cd murzilla && bash install.sh`
 2. Type node address (IP or Domain)
 3. Type sudo password
 4. Mininmal installation time - 5min(SSD)
