@@ -51,6 +51,10 @@ go install
 cd /opt/murzilla
 cp ~/go/bin/* bin/
 
+sudo mkdir /ipfs
+sudo mkdir /ipns
+sudo chmod 777 /ipfs
+sudo chmod 777 /ipns
 export IPFS_PATH=/opt/murzilla/data/.ipfs
 wget -O temp/kubo.tar.gz https://github.com/ipfs/kubo/releases/download/v0.26.0/kubo_v0.26.0_linux-amd64.tar.gz
 tar xvzf temp/kubo.tar.gz -C temp
@@ -72,7 +76,7 @@ Type=notify\n\
 User=$USER\n\
 Group=$USER\n\
 Environment=IPFS_PATH=/opt/murzilla/data/.ipfs\n\
-ExecStart=/usr/local/bin/ipfs daemon --enable-gc\n\
+ExecStart=/usr/local/bin/ipfs daemon --mount --enable-gc\n\
 Restart=on-failure\n\
 KillSignal=SIGINT\n\
 \n\
