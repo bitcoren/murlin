@@ -1,6 +1,11 @@
 # Murzilla
 
-Murzilla - journal of titles for Linux / Мурзилла - журнал заголовков для Linux
+Murzilla - long-term storage journal, Linux edition / Мурзилла - журнал длительного хранения, Linux версия  
+
+Warning:  
+This is alpha software. Use at your own discretion!  
+Much is missing or lacking polish. There are bugs.  
+Not yet secure.  
 
 ## Requirements
 
