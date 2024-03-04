@@ -56,7 +56,7 @@ sudo mkdir /ipns
 sudo chmod 777 /ipfs
 sudo chmod 777 /ipns
 export IPFS_PATH=/opt/murzilla/data/.ipfs
-wget -O temp/kubo.tar.gz https://github.com/ipfs/kubo/releases/download/v0.26.0/kubo_v0.26.0_linux-amd64.tar.gz
+wget -O temp/kubo.tar.gz https://github.com/ipfs/kubo/releases/download/v0.27.0/kubo_v0.27.0_linux-amd64.tar.gz
 tar xvzf temp/kubo.tar.gz -C temp
 sudo mv temp/kubo/ipfs /usr/local/bin/ipfs
 ipfs init --profile server
